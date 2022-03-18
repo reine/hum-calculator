@@ -7,3 +7,15 @@ form {
     width: 60%;
     margin: 100px auto 100px;
 }
+
+hr {
+    border-top: 1px solid #333;
+}
+
+a {
+    color: #333;
+}
+
+p.text-center {
+    text-align: center;
+}

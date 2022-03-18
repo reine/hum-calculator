@@ -36,22 +36,6 @@ const volumeMapping = {
     }
 }
 
-// Prepare time data
-const timeMapping = {
-    hour: {
-        name: 'Hour',
-        conversion: {
-            shake: 360000000000
-        }
-    },
-    shake: {
-        name: 'Shake',
-        conversion: {
-            hour: 2.7777777777777777
-        }
-    }
-}
-
 document.addEventListener('DOMContentLoaded', (e) => {
     const measurementChoices = Object.entries(volumeMapping);
     const convertFrom = document.getElementById('convert-from-volume');
